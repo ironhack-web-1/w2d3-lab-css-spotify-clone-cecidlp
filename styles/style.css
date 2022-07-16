@@ -34,7 +34,7 @@ nav ul {
 
   }
 
-.title {
+#title {
     background-image: url(/images/landing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ h1 {
     text-align: center;
 }
 
-p {
+#title p {
     font-size: 1.5em;
     color: #FFF;
     font-weight: 200;
@@ -68,4 +68,28 @@ h2 {
     margin-bottom: 0px;
     text-align: center;  
 }
+
+h3 {
+    color: #00B172;
+}
+
+.description > img {
+    width: 80px;
+    margin: 0px;
+
+}
+
+#categories {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
     
+}
+
+#section2 > h2 {
+    margin-top: 40px;
+}
+
